@@ -1,0 +1,411 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+
+	<title>Ilya Medvedev</title>
+
+	<style>
+	body {
+  background: #EEEEEE;
+  font: 12px "Times New Roman", Times, sans-serif;
+  line-height: 1.4;
+  margin: 40px 0;
+}
+em {
+  color: #999;
+}
+p {
+  line-height: 1.4;
+}
+ul {
+  margin-bottom: 0;
+}
+li {
+  margin-bottom: 2px;
+}
+a {
+  text-decoration: none;
+}
+
+#resume {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 80px 100px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px #aaa;
+  -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.coursesList {
+  width: 28%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.largeFont {
+  font-size: 20px;
+}
+
+.smallFont {
+  font-size: 12px;
+}
+
+.sectionBlock {
+  display: flex;
+  width: 100%;
+}
+
+.sectionName {
+  width: 18%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent {
+  width: 80%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent ul {
+  padding-left: 20px;
+  margin-top: 6px;
+  list-style-type: circle;
+}
+
+.sectionContent .title {
+  font-weight: bold;
+}
+
+.sectionContent .date {
+  float: right;
+}
+
+.sectionContent .separator {
+  height: 14px;
+}
+
+.sectionLine {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #CFCFCF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.summary {
+  margin-top: 6px;
+}
+
+.skillBlock {
+  margin-bottom: 4px;
+}
+
+.jobBlock {
+  page-break-inside: avoid;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 40em) {
+  body {
+    margin: 0;
+    font-size: 14px;
+  }
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0.5em 1em;
+    border: none;
+  }
+  .sectionContent {
+    width: 100%;
+  }
+  .sectionContent .date {
+    padding-right: 2em;
+  }
+  .sectionName {
+    width: auto;
+  }
+  .largeFont {
+    font-size: 20px;
+  }
+  .smallFont {
+    font-size: 14px;
+  }
+}
+
+@media print {
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0px 0px;
+    border: 0px;
+    background: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  a {
+    color: black;
+  }
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<div id='resume'>
+  <div id='nameBlock' class='largeFont'>
+    <span class='name'>
+      Ilya Medvedev,
+    </span>
+    <span class='label'>Full Stack Developer</span>
+  </div>
+  <div id='basicsBlock' class='smallFont'>
+    <div class='contactBlock'>
+      <span class='email'>contact@hieroglyphcode.ch</span>
+        <span class='divider'>|</span>
+        <span class='address'>
+          Basel, Switzerland, CH
+        </span>
+    </div>
+      <div id='profilesBlock'>
+            <span class='url'>
+              <a href='https://hieroglyphcode.ch'>https://hieroglyphcode.ch</a>
+            </span>
+            <span class='divider'>|</span>
+            <span class='url'>
+              <a href='https://github.com/mementomori16'>https://github.com/mementomori16</a>
+            </span>
+            <span class='divider'>|</span>
+            <span class='url'>
+              <a href='https://gitlab.com/mementomori1571'>https://gitlab.com/mementomori1571</a>
+            </span>
+            
+      </div>
+  </div>
+  <div class='sectionLine'></div>
+
+  <div id='summaryBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>SUMMARY</span>
+    </div>
+    <div class='sectionContent'>
+      <span>Full-Stack Developer with expertise in the MERN stack. Proficient across a wide range of modern web technologies including TypeScript, React, SvelteKit, Next.js, Vue.js, Node.js, and SQL/NoSQL databases, I leverage a strong aesthetic sensibility derived from my fine arts background to build intuitive and visually compelling web applications. I have a proven ability to deliver tangible business outcomes, including boosting user-friendliness by 15% and client clarity by 30% for a Swiss-based music application.</span>
+    </div>
+  </div>
+  <div class='sectionLine'></div>
+
+  <div id='workBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>EXPERIENCE</span>
+    </div>
+    <div class='sectionContent'>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          , Professional Services web app
+	        </span>
+	        <span class='date'>
+	          2025-07-01 &mdash; 2025-09-30
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+	      <ul class='highlights'>
+	        <li>Full-Stack Architecture: Engineered a RESTful API with Node.js and Express.js to handle all content, including dynamic image assets fetched from an external server, creating a highly efficient front-end.</li>
+	        <li>Key Components: Developed from scratch: Product Card, Interactive Gallery, Product Carousel, Navbar, Language Switcher, Search Functionality, Preloader and other components.</li>
+	        <li>Design &amp; UX: Utilized Figma to collaborate on and implement the front-end design, ensuring a professional and user-friendly interface.</li>
+	        <li>End-to-End Quality Assurance: Implemented a dedicated test suite using Cypress to establish reliable End-to-End (E2E) testing for core user journeys, ensuring site integrity and preventing regressions across major components.</li>
+	        <li>Workflow: Implemented a CI/CD pipeline using GitHub Actions for automated deployments.</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          , Full Stack Developer (Freelance Project)
+	        </span>
+	        <span class='date'>
+	          2025-06-01 &mdash; 2025-07-31
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+	      <ul class='highlights'>
+	        <li>Switzerland-based music application.</li>
+	        <li>Boosted user-friendliness by 15% and client clarity by 30% by actively developing frontend components for a Swiss-based music application using Svelte and SvelteKit.</li>
+	        <li>Integrated payment services via Stripe and optimized content delivery with BunnyNet CDN.</li>
+	        <li>Collaborated within a comprehensive development ecosystem involving Golang, Postgres DB, Docker, Heroku, and GitLab.</li>
+	      </ul>
+	      
+			</div>
+    </div>
+  </div>
+  <div class='sectionLine'></div>
+
+
+
+
+	<div id='education' class="sectionBlock">
+    <div class='sectionName'>
+      <span>EDUCATION</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='educationBlock'>
+        <span class='title'>
+          Open University: INT college – Institute of Innovation &amp; Technology
+        </span>
+        <span class='date'>
+          2023-04-01 &mdash; 2024-07-31
+        </span>
+        <div class=''>
+           - Full Stack Developer
+        </div>
+      </div>
+      <div class='separator'></div>
+      <div class='educationBlock'>
+        <span class='title'>
+          Hamidrasha-Faculty of the Arts
+        </span>
+        <span class='date'>
+          2007-10-01 &mdash; 2011-06-30
+        </span>
+        <div class=''>
+          Bachelor  - Bachelor of Education, Certified Senior Teacher in subject of Art
+        </div>
+      </div>
+      <div class='separator'></div>
+      <div class='educationBlock'>
+        <span class='title'>
+          Ort Geula High School
+        </span>
+        <span class='date'>
+          1998-09-01 &mdash; 2000-06-30
+        </span>
+        <div class=''>
+          Diploma  - High School Diploma (Graphic Design Focus)
+        </div>
+      </div>
+      
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+	<div id='skills' class="sectionBlock">
+    <div class='sectionName'>
+      <span>SKILLS</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='skillBlock'>
+        <span class='title'>FRONT-END:</span>
+          <span>TypeScript</span>, 
+          <span>Vanilla JS</span>, 
+          <span>React.js</span>, 
+          <span>Vue.js 3</span>, 
+          <span>Angular.js</span>, 
+          <span>React Native</span>, 
+          <span>Expo</span>, 
+          <span>Next.js</span>, 
+          <span>Redux.js</span>, 
+          <span>Svelte</span>, 
+          <span>SvelteKit</span>, 
+          <span>Responsive Web Design</span>, 
+          <span>HTML/HTML5</span>, 
+          <span>CSS3</span>, 
+          <span>SASS</span>, 
+          <span>Bootstrap</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>BACK-END:</span>
+          <span>Node.js</span>, 
+          <span>Express.js</span>, 
+          <span>Vite</span>, 
+          <span>Cypress (E2E Testing)</span>, 
+          <span>Jest</span>, 
+          <span>Postman API testing</span>, 
+          <span>PHP</span>, 
+          <span>Golang</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>AI TOOLS &amp; INTEGRATION:</span>
+          <span>Google AI Studio</span>, 
+          <span>Specialized AI Coding Platforms</span>, 
+          <span>Google Generate AI</span>, 
+          <span>Workflow Automation</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>DATABASES:</span>
+          <span>MongoDB</span>, 
+          <span>MongoAtlas</span>, 
+          <span>Firebase</span>, 
+          <span>MYSQL</span>, 
+          <span>Postgres DB</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>PLATFORMS &amp; SERVICES:</span>
+          <span>Git</span>, 
+          <span>VS Code</span>, 
+          <span>Trello</span>, 
+          <span>Slack</span>, 
+          <span>Docker</span>, 
+          <span>Heroku</span>, 
+          <span>GitLab</span>, 
+          <span>Stripe</span>, 
+          <span>BunnyNet</span>, 
+          <span>EmailJS</span>, 
+          <span>DNS</span>, 
+          <span>SSL</span>, 
+          <span>SEO</span>, 
+          <span>Google Analytics</span>, 
+          <span>VS Code</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>DESIGN &amp; UI:</span>
+          <span>Adobe Photoshop</span>, 
+          <span>Figma</span>, 
+          <span>Ant Design</span>, 
+          <span>Corel Painter</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>CMS:</span>
+          <span>WordPress</span>, 
+          <span>Elementor</span>, 
+          <span>WordPress Plugins</span>, 
+          <span>Divi</span>, 
+          <span>SMUI</span>
+      </div>
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+	<div id='languages' class="sectionBlock">
+    <div class='sectionName'>
+      <span>LANGUAGES</span>
+    </div>
+    <div class='sectionContent'>
+      <span class='language'>English</span>
+      <span class='fluency'><em>(Native/Bilingual)</em></span>
+      <span>,</span>
+      <span class='language'>Russian</span>
+      <span class='fluency'><em>(Native/Bilingual)</em></span>
+      <span>,</span>
+      <span class='language'>German</span>
+      <span class='fluency'><em>(Conversational B1)</em></span>
+      
+    </div>
+    <div class='sectionLine'></div>
+	</div>
+
+
+	</body>
+</html>
